@@ -1,0 +1,29 @@
+<annotation>
+	<folder>download</folder>
+	<filename>2517595.png</filename>
+	<path>D:\danbooru_face\download\2517595.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>face</name>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<jingai>0</jingai>
+		<blur>0</blur>
+		<pose>0</pose>
+		<occlusion>0</occlusion>
+		<bndbox>
+			<xmin>345</xmin>
+			<ymin>123</ymin>
+			<xmax>430</xmax>
+			<ymax>217</ymax>
+		</bndbox>
+	</object>
+</annotation>

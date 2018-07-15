@@ -6,7 +6,7 @@ import os, pickle, random, requests, time
 
 ID_PICKLE_FILE = "valid_ids.pickle"
 PIC_OUTPUT_DIR = "../download"
-PIC_EXCLUDE_DIRS = "../annotations", "../download"
+PIC_EXCLUDE_DIRS = "../annotation", "../download"
 
 execdir = os.path.dirname(os.path.abspath(__file__))
 

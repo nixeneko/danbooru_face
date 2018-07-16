@@ -1,0 +1,29 @@
+<annotation>
+	<folder>download</folder>
+	<filename>639710.jpg</filename>
+	<path>C:\work\danbooru_face\download\639710.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>645</width>
+		<height>895</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>face</name>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<jingai>0</jingai>
+		<blur>0</blur>
+		<pose>0</pose>
+		<occlusion>0</occlusion>
+		<bndbox>
+			<xmin>173</xmin>
+			<ymin>110</ymin>
+			<xmax>304</xmax>
+			<ymax>317</ymax>
+		</bndbox>
+	</object>
+</annotation>

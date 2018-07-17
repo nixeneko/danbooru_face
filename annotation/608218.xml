@@ -1,0 +1,29 @@
+<annotation>
+	<folder>download</folder>
+	<filename>608218.gif</filename>
+	<path>C:\work\danbooru_face\download\608218.gif</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>150</width>
+		<height>340</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>face</name>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<jingai>0</jingai>
+		<blur>0</blur>
+		<pose>0</pose>
+		<occlusion>0</occlusion>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>90</ymin>
+			<xmax>104</xmax>
+			<ymax>156</ymax>
+		</bndbox>
+	</object>
+</annotation>

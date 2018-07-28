@@ -63,12 +63,12 @@ def convert2yolo(xml_fp):
         xmax = int(bndbox.find("xmax").text)
         ymax = int(bndbox.find("ymax").text)
         
-        x_ratio = xmin/width
-        y_ratio = ymin/height
+        x_center_ratio = (xmin+xmax)/width
+        y_center_ratio = (ymin+ymax)/height
         w_ratio = (xmax-xmin)/width
         h_ratio = (ymax-ymin)/height
 
-        txt += "0 {} {} {} {}\n".format(x_ratio, y_ratio, w_ratio, h_ratio)
+        txt += "0 {} {} {} {}\n".format(x_center_ratio, y_center_ratio, w_ratio, h_ratio)
     return txt
             
 for root, dirs, files in os.walk(os.path.join(execdir, LABEL_DIR)):

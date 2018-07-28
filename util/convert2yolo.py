@@ -63,8 +63,8 @@ def convert2yolo(xml_fp):
         xmax = int(bndbox.find("xmax").text)
         ymax = int(bndbox.find("ymax").text)
         
-        x_center_ratio = (xmin+xmax)/width
-        y_center_ratio = (ymin+ymax)/height
+        x_center_ratio = (xmin+xmax)/2/width
+        y_center_ratio = (ymin+ymax)/2/height
         w_ratio = (xmax-xmin)/width
         h_ratio = (ymax-ymin)/height
 
